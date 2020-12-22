@@ -1,0 +1,10 @@
+
+plugins {
+    id 'org.scalamacros.scala-library-conventions'
+}
+
+dependencies {
+    implementation project(':macros')
+}
+
+description = 'core'
